@@ -1,0 +1,47 @@
+@font-face {
+    font-family: kanit;
+    src: url(../fonts/KANIT-REGULAR.TTF);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: kanit;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    margin: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.btn-container {
+    justify-content: center;
+    display: flex;
+}
+.box #yes {
+    border: 2px solid green;
+    background: green;
+    color: #fff;
+    padding: 5px 10px;
+}
+.box #no {
+    border: 2px solid rgb(211, 0, 0);
+    background: rgb(211, 0, 0);
+    color: #fff;
+}
