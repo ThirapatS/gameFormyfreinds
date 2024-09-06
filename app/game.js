@@ -11,7 +11,7 @@ noBtn.addEventListener("click", () => {
     }
     switch (point) {
         case 1:
-            textLabel.innerText = "ไอสัสกดใหม่";
+            textLabel.innerText = "คิดดีๆ";
             break;
         case 2:
             textLabel.innerText = "ไม่เอาๆกดใหม่";
@@ -21,7 +21,7 @@ noBtn.addEventListener("click", () => {
             break;
         case 4:
             imgSrc.src = "img/happy.gif";
-            textLabel.innerText = "เป็นเพื่อนกับกูมั้ย";
+            textLabel.innerText = "เป็นเพื่อนกับเค้ามั้ย";
             noBtn.style.display = 'none';
             break;
     }
